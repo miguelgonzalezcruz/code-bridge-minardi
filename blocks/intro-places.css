@@ -1,21 +1,22 @@
 .intro-places {
   display: flex;
   flex-direction: column;
-  padding-right: 148px;
-  padding-left: 148px;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 .intro-places__title {
-  max-width: 785px;
+  max-width: 850px;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
 .intro-places__body {
-  max-width: 720px;
+  max-width: 850px;
+  padding-left: 35px;
 }
 
 .intro-places__body-quote {
@@ -38,6 +39,7 @@
   line-height: 163%;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 920px) {
