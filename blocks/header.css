@@ -1,12 +1,10 @@
 .header {
   display: flex;
   justify-content: center;
-  padding-top: 34px;
 }
 
 
 @media screen and (max-width: 540px) {
   .header {
-    padding-top: 20px;
   }
 }
