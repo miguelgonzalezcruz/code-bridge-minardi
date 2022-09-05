@@ -26,3 +26,12 @@
 .nav__link:hover {
   color: #114f5c;
 }
+
+
+@media screen and (max-width: 390px) {
+
+  .nav__links {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
