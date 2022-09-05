@@ -1,11 +1,11 @@
-.intro {
+.subject {
   display: flex;
   flex-direction: column;
   padding-right: 75px;
   padding-left: 75px;
 }
 
-.intro__title {
+.subject__title {
   max-width: 850px;
   font-size: 54px;
   font-weight: 900;
@@ -17,35 +17,21 @@
 
 
 @media screen and (max-width: 920px) {
-  .intro {
+  .subject {
     padding-right: 0;
     padding-left: 0;
   }
 
-  .intro__title {
+  .subject__title {
     padding-right: 24px;
     padding-left: 24px;
-  }
-
-  .intro__content {
-    padding-right: 24px;
-    padding-left: 24px;
-  }
-
-  .intro__content-body {
-    padding-left: 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .intro__title {
+  .subject__title {
     font-size: 32px;
     line-height: 35px;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-
-  .intro__content {
     padding-right: 16px;
     padding-left: 16px;
   }

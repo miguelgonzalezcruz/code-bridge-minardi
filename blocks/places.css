@@ -1,4 +1,4 @@
-.places {
+.blocks {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -8,21 +8,21 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .places {
+  .blocks {
     padding-left: 5%;
     padding-right: 5%;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .places {
+  .blocks {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .places {
+  .blocks {
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 0;

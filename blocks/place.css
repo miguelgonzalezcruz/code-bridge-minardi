@@ -8,6 +8,11 @@
   "image content";
 }
 
+.block__vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .block__title {
   font-weight: 900;
   font-size: 40px;

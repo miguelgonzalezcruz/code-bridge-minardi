@@ -21,14 +21,15 @@
       <header class="header">
         <div class="nav">
           <nav class="nav__links">
-            <a href="#" class="nav__link">Current State</a>
-            <a href="#" class="nav__link">Progress</a>
-            <a href="#" class="nav__link">Comparison</a>
+            <a href="#current_state" class="nav__link">Current State</a>
+            <a href="#progress" class="nav__link">Progress</a>
+            <a href="#comparison" class="nav__link">Comparison</a>
           </nav>
         </div>
       </header>
 
       <main class="content">
+
         <section class="hero">
           <h1 class="hero__title">Green power</h1>
           <p class="hero__subtitle">
@@ -36,15 +37,15 @@
           </p>
         </section>
 
-        <section class="intro">
-          <h2 class="intro__title">Current state of the industry</h2>
+        <section id="current_state" class="subject">
+          <h2 class="subject__title">Current state of the industry</h2>
 
-          <div class="places">
+          <div class="blocks">
             <article class="block">
               <h2 class="block__title">
                 How many solar- and wind-powered plants there are?
               </h2>
-              <div class="block-image">
+              <div>
                 <img
                   src="./images/how_many_plants.png"
                   alt="how many plants"
@@ -65,11 +66,9 @@
               </div>
             </article>
 
-            <div class="divider"></div>
-
             <article class="block">
-              <h2 class="block__title">HBut how much energy they produce?</h2>
-              <div class="block-image__right">
+              <h2 class="block__title">But how much energy they produce?</h2>
+              <div>
                 <img
                   src="./images/how_much_energy.png"
                   alt="How"
@@ -89,14 +88,122 @@
             </article>
           </div>
         </section>
-        <section class="visit-us">
-          <h2 class="visit-us__title">Know more</h2>
-          <div class="visit-us__content">
-            <p class="visit-us__content-info">Text</p>
-            <p class="visit-us__content-info">Other text</p>
-            <p class="visit-us__content-info">One more line</p>
+        <section id="progress" class="subject">
+          <h2 class="subject__title">Progress through time</h2>
+
+          <div class="blocks">
+            <article class="block block__vertical">
+              <h2 class="block__title">Last decades' dynamic</h2>
+              <div>
+                <img
+                  src="./images/last_decades.png"
+                  alt="last decades dynamic"
+                  class="block__image"
+                />
+              </div>
+              <div class="block__description">
+                <p class="block__content">
+                  The last century has seen a profound change in the number and
+                  capacity of power plants.
+                </p>
+                <p class="block__content">
+                  From the graph, we can see that the number of solar- and
+                  wind-powered plants is growing dramatically, while new gas and
+                  coal power plants occur not so often. It is a trend which we
+                  were expected to see, knowing of the environmental benefits of
+                  using solar and wind power, as well as the need for new energy
+                  sources due to climate change.
+                </p>
+                <p class="block__content">
+                  However, it is not clear that the overall capacity of these
+                  renewable energy sources is increasing at the same rate as the
+                  number of constructions being built.
+                </p>
+              </div>
+            </article>
+
+            <article class="block block__vertical">
+              <h2 class="block__title">What is the trend?</h2>
+              <div>
+                <img
+                  src="./images/the_trend.png"
+                  alt="How"
+                  class="block__image"
+                />
+              </div>
+              <div class="block__description">
+                <p class="block__content">
+                  Let’s draw the trend line, assuming that progress regarding
+                  the number of new plants built and their capacity will keep
+                  the same pace as it has over the last 10 years.
+                </p>
+                <p class="block__content">
+                  The prediction line shows us that gas power plants will
+                  surpass those that use coal as the power source in both
+                  quantity and overall capacity.
+                </p>
+                <p class="block__content">
+                  The situation is different for renewable sources of energy.
+                  Although the number of wind plants has already exceeded coal
+                  and gas ones, and solar stations are going to do the same
+                  soon, the power capacity of these energy sources is increasing
+                  at the same rate as their opponents.
+                </p>
+                <p class="block__content">
+                  This means that, despite a lot of new wind and solar power
+                  plants being built, their number is clearly not enough to
+                  surpass the capacity of fossil fuel-powered plants. And maybe,
+                  even for sustaining our needs.
+                </p>
+              </div>
+            </article>
           </div>
         </section>
+        <section id="comparison" class="subject">
+          <h2 class="subject__title">Comparison by countries</h2>
+
+          <div class="blocks">
+            <article class="block block__vertical">
+              <h2 class="block__title">
+                Which counties use wind energy the most?
+              </h2>
+              <div>
+                <iframe
+                  width="900"
+                  height="800"
+                  frameborder="0"
+                  scrolling="no"
+                  src="//plotly.com/~WanomiR/20.embed"
+                ></iframe>
+              </div>
+            </article>
+            <article class="block block__vertical">
+              <h2 class="block__title">What about solar energy preferences?</h2>
+              <div>
+                <iframe
+                  width="900"
+                  height="800"
+                  frameborder="0"
+                  scrolling="no"
+                  src="//plotly.com/~WanomiR/22.embed"
+                ></iframe>
+              </div>
+            </article>
+            <article class="block block__vertical">
+              <h2 class="block__title">
+                What are the most environmentally friendly countries?
+              </h2>
+              <div>
+                <iframe
+                  width="900"
+                  height="800"
+                  frameborder="0"
+                  scrolling="no"
+                  src="//plotly.com/~WanomiR/24.embed"
+                ></iframe>
+              </div>
+            </article>
+          </div>
       </main>
     </div>
 
