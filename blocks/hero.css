@@ -8,31 +8,23 @@
 
 .hero__title {
   margin-top: 90px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  max-width: 793px;
   align-self: center;
+  align-content: center;
 }
 
 .hero__subtitle {
   margin-top: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 75px;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  max-width: 793px;
   align-self: center;
+  align-content: center;
 }
-
-.hero__image {
-
-  display: absolute;
-  margin-top: 64px;
-  margin-bottom: 92px;
-}
-
 
 
 @media screen and (max-width: 1279px) {
