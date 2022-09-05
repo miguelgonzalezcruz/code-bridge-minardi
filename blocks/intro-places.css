@@ -5,6 +5,16 @@
   padding-left: 75px;
 }
 
+.intro__title {
+  max-width: 850px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #114f5c;
+}
+
 
 @media screen and (max-width: 920px) {
   .intro {
