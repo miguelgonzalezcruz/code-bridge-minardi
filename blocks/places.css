@@ -1,5 +1,6 @@
 .places {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   max-width: 987px;
   padding-left: 145px;
