@@ -4,12 +4,13 @@
   flex-direction: column;
   box-sizing: border-box;
   color: #fff;
+
 }
 
 .hero__title {
   margin-top: 90px;
   margin-bottom: 10px;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 96px;
   line-height: 100px;
   align-self: center;
@@ -19,7 +20,7 @@
 .hero__subtitle {
   margin-top: 32px;
   margin-bottom: 75px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   line-height: 36px;
   align-self: center;

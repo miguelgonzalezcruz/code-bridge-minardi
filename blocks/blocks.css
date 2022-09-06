@@ -1,31 +1,14 @@
 .blocks {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  max-width: 987px;
-  padding-left: 145px;
-  padding-right: 148px;
+  max-width: 1000px;
 }
 
-@media screen and (max-width: 1200px) {
-  .blocks {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .blocks {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
 
 @media screen and (max-width: 540px) {
   .blocks {
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 0;
-    padding-right: 0;
+
   }
 }
