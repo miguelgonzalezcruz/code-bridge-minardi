@@ -1,5 +1,8 @@
 .hero {
-  background: linear-gradient(87.53deg,#114f5c 4.14%,#4e8271 54.88%);
+
+  background: #114f5c; 
+
+  background-size: inherit;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
