@@ -1,4 +1,4 @@
-# Code bridge . Minardi team
+# Code bridge | Minardi team
 
 ### Overview
 
